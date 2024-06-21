@@ -1,0 +1,13 @@
+/* Add this to your CSS file */
+.backdrop-blur {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); /* Adjust the blur intensity */
+    z-index: 1; /* Make sure it is behind the popup content */
+  }
+  
+  .popup-container {
+    z-index: 2; /* Ensure the popup content is above the backdrop */
+  }
+  

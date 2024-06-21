@@ -1,0 +1,48 @@
+.transition-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-out;
+}
+
+.transition-container.open {
+  max-height: 500px; /* Adjust as needed */
+}
+
+.transition-container label {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.transition-container.open label {
+  opacity: 1;
+}
+
+.transition-max-height {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-out;
+}
+
+.transition-max-height.open {
+  max-height: 500px; /* Adjust as needed */
+}
+
+.transition-max-height label {
+  opacity: 0;
+  transition: opacity 0.6s ease-out;
+}
+
+.transition-max-height.open label {
+  opacity: 1;
+}
+
+.transition-container {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.transition-container.open {
+  max-height: 500px; /* Adjust based on the expected maximum height */
+}
+
+
